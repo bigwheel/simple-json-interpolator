@@ -1,4 +1,4 @@
-# simple json interpolator [![Build Status](https://travis-ci.com/bigwheel/simple-json-interpolator.svg?branch=master)](https://travis-ci.com/bigwheel/simple-json-interpolator)
+# simple json interpolator [![Build Status](https://travis-ci.org/bigwheel/simple-json-interpolator.svg?branch=master)](https://travis-ci.org/bigwheel/simple-json-interpolator)
 
 This is a simple json interpolator.
 
