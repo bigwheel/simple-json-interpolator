@@ -29,6 +29,10 @@ ThisBuild / pomExtra := (
     </developers>
   )
 
+lazy val root = (project in file("."))
+  .aggregate(core, readerSprayjson, readerArgonaut, test)
+  .settings(skip in publish := true)
+
 lazy val core = project
   .settings(
     name := "simple-json-interpolator"
